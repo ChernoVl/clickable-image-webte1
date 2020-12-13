@@ -1,3 +1,5 @@
+http://147.175.121.202/~xchernov/pre4z2ice/
+
 # clickable-image
 [HTML+CSS] display of information on mouse instructions
 
