@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+	background-color: #d2d2e0;
+}
+
+h1 {
+	text-align: center;
+	padding-top: 20px
+}
+
+body{
+	display: grid;
+	/*grid-template-columns: 200px 200px 200px;*/
+	grid-template-rows: 100px 790px 80px;
+	background: url("photo/i01_etg-cctv-ip-camera-banner.jpg");
+	background-position: center;
+	background-size: cover;
+	background-color:rgba(0,0,0,.3);
+	background-repeat: no-repeat;
+}
+
+footer{
+	text-align: center;
+	background-color: #d2d2e0;
+	padding: 20px;
+}
+
+article img {
+	position: relative;
+	width: 60%;
+	margin: 0 1em;
+
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	padding: 1px;
+	
+	width: 1150px;
+}
+
+ul {
+	list-style-image: url('photo/fing2.png');
+}
+
+.block{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+
+.box{
+	position: relative;
+	border-radius: 4%;
+	cursor: help;
+	box-shadow: 0 0 0 3px #246df5;
+	z-index: 1;
+}
+
+.box1 {
+	width: 40px;
+	height: 94px;
+	margin: -11em 33em;
+
+}
+.box:hover {
+	box-shadow: 0 0 0 3px #008000;
+}
+
+.content {
+  position: absolute;
+  bottom: 110px;
+  padding: 20px;
+  min-width: 200px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  visibility: hidden;
+
+}
+
+.content .header {
+  display: flex;
+  align-items: center;
+}
+.content .header img {
+  grid-column: 1/2;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover; /*определяет, как содержимое заменяемого элемента, такого как <img> или <video>, должно заполнять контейнер относительно его высоты и ширины.*/
+}
+
+.content .header .infos {
+  margin-left: 1em;
+  
+}
+.content .header .infos .name {
+  font-size: 1.25em;
+  color: #333;
+  letter-spacing: 1px;
+}
+
+.content .body {
+  padding: 1em;
+}
+
+.content .body p {
+  font-size: 0.95em;
+  color: #272727;
+}
+
+.box:hover .content {
+	visibility: visible;
+	opacity: 1;
+	z-index: 2;
+}
+
+
+.box2 {
+	width: 40px;
+	height: 94px;
+	margin: 5em 29em;
+}
+
+.box3 {
+	width: 29px;
+	height: 90px;
+	margin: -10em 21em;
+}
+
+.box4 {
+	width: 40px;
+	height: 90px;
+	margin: 4em 14em;	
+}
+
+.box5 {
+	width: 60px;
+	height: 130px;
+	margin: -10em 10em;	
+}
+
+.box6 {
+	width: 50px;
+	height: 130px;
+	margin: 2em 5em;	
+}
+
+.box7 {
+	width: 30px;
+	height: 35px;
+	margin: -9em 26em;	
+
+	position: relative;
+	border-radius: 4%;
+	cursor: no-drop;
+	box-shadow: 0 0 0 3px #246df5;
+	z-index: 1;
+}
+.box7:hover {
+	box-shadow: 0 0 0 3px #d10fd8;
+}
